@@ -1,0 +1,358 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+/*Font*/
+header {
+  padding: 15px 0;
+}
+
+header .header {
+  display: flex;
+  align-items: center;
+}
+
+header .header .header__logo {
+  width: 30%;
+}
+
+header .header .header__menu ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+header .header .header__menu a {
+  color: #fff;
+}
+
+.main-section {
+  background: url("../img/main/main-bgc.jpg") no-repeat;
+  background-size: cover;
+}
+
+.main-section .main .main-container {
+  position: relative;
+  height: 87vh;
+}
+
+.main-section .main .main__body {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+}
+
+.main-section .main .main__body .main__body-subtitle {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.main-section .main .main__body .main__body-title {
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.main-section .main .main__body .main__body-text {
+  margin: 18px 0 0 0;
+  opacity: 0.6;
+}
+
+.specialized-section {
+  padding: 120px 0;
+}
+
+.specialized-section .specialized .specialized-header {
+  text-align: center;
+}
+
+.specialized-section .specialized .specialized-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 40px 0 0 0;
+}
+
+.specialized-section .specialized .specialized-body .item1 {
+  background: url("/src/img/specialized/fon1.jpg") no-repeat;
+}
+
+.specialized-section .specialized .specialized-body .item2 {
+  background: url("/src/img/specialized/fon2.jpg") no-repeat;
+}
+
+.specialized-section .specialized .specialized-body .item3 {
+  background: url("/src/img/specialized/fon3.jpg") no-repeat;
+}
+
+.specialized-section .specialized .specialized-body .item4 {
+  background: url("/src/img/specialized/fon4.jpg") no-repeat;
+}
+
+.specialized-section .specialized .specialized-body .specialized-item {
+  display: flex;
+  width: 45%;
+  height: 600px;
+  padding: 30px;
+}
+
+.specialized-section .specialized .specialized-body .specialized-item .specialized-item__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.specialized-section .specialized .specialized-body .specialized-item .specialized-item__body .specialized-item__title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.specialized-section .specialized .specialized-body .specialized-item .specialized-item__body .specialized-item__text {
+  margin: 15px 0 0 0;
+  opacity: 0.6;
+}
+
+.tool {
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: end;
+}
+
+.tool .tool__body {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10% 0 0;
+}
+
+.tool .tool__body .tool__title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tool .tool__body .tool__text {
+  line-height: 20px;
+  opacity: 0.6;
+}
+
+.mount {
+  background: url("/src/img/tool/mount.jpg") no-repeat;
+  background-size: cover;
+}
+
+.tool-main {
+  display: flex;
+}
+
+.tool-main .tool-main-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.tool-main .tool-main-content .tool-main__body {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tool-main .tool-main-content .tool-main__body .tool-main__body-subtitle {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.tool-main .tool-main-content .tool-main__body .tool-main__body-title {
+  margin: 6px 0 0 0;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.tool-main .tool-main-content .tool-main__body .tool-main__body-text {
+  margin: 14px 0 0 0;
+  line-height: 20px;
+}
+
+.tool-main .tool-main-content .tool-main__body .tool-main__body-button {
+  margin: 20px 0 0 0;
+}
+
+.tool-main .tool-main__img {
+  width: 50%;
+  background: url("/src/img/tool/toolMain.jpg") no-repeat;
+  background-size: cover;
+}
+
+.monstera {
+  background: url("/src/img/tool/Monstera.jpg") no-repeat;
+  background-size: cover;
+}
+
+.pastClients {
+  padding: 120px 0;
+}
+
+.pastClients .pastClients-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pastClients .pastClients__body {
+  margin: 80px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.himalayas {
+  background: url("/src/img/tool/Himalayas.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* nullCss*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*-------------------------------------------*/
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 9px 20px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.subtitle {
+  margin: 15px 0 0 0;
+  font-size: 23px;
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.item__footer {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.item__footer ul {
+  display: flex;
+  gap: 16px;
+}
+
+.item__footer ul li {
+  display: flex;
+}
+
+.item__footer ul li p {
+  padding: 0 0 0 10px;
+}
+
+.buttonMore {
+  display: flex;
+  margin: 17px 0 0 0;
+}
+
+.buttonMore a {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 9px 10px;
+  background-color: #fff;
+}
+
+.buttonMore a img {
+  margin: 0 10px 0 0;
+}

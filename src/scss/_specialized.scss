@@ -1,0 +1,47 @@
+.specialized-section{
+    padding: 120px 0;
+    .specialized{
+        .specialized-header{
+            text-align: center;
+        }
+        .specialized-body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            margin: 40px 0 0 0;
+            .item1{
+                background: url('/src/img/specialized/fon1.jpg') no-repeat;
+            }
+            .item2{
+                background: url('/src/img/specialized/fon2.jpg') no-repeat;
+            }
+            .item3{
+                background: url('/src/img/specialized/fon3.jpg') no-repeat;
+            }
+            .item4{
+                background: url('/src/img/specialized/fon4.jpg') no-repeat;
+            }
+            .specialized-item{
+                display: flex;
+                width: 45%;
+                height: 600px;
+                padding: 30px;
+                .specialized-item__body{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: end;
+                  .specialized-item__title{
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                  }
+                  .specialized-item__text{
+                    margin: 15px 0 0 0;
+                    opacity: 0.6;
+                  }
+                
+                }
+            }
+        }
+    }
+}

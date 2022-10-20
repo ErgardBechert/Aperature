@@ -1,0 +1,34 @@
+.main-section{
+    
+    background: url('../img/main/main-bgc.jpg') no-repeat;
+    background-size: cover;
+  
+    .main{
+        .main-container{
+            position: relative;
+            height: 87vh;
+        }
+        .main__body{
+            position: absolute;
+            bottom: 0;
+            left:50%;
+            transform:translate(-50%, -50%);
+            width: 50%;
+            text-align: center;
+            .main__body-subtitle{
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                opacity: 0.6;
+            }
+            .main__body-title{
+                font-size: 54px;
+                line-height: 59px;
+            }
+            .main__body-text{
+               margin: 18px 0 0 0;
+               opacity: 0.6;
+            }
+        }
+    
+    }
+}

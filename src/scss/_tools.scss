@@ -1,0 +1,85 @@
+.tool{
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+    .tool__body{
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10% 0 0;
+        .tool__title{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .tool__text{
+            line-height: 20px;
+            opacity: 0.6;
+        }
+    }
+}
+.mount{
+    background: url('/src/img/tool/mount.jpg') no-repeat;
+    background-size: cover;
+}
+.tool-main{
+    display: flex;
+    .tool-main-content{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        .tool-main__body{
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            .tool-main__body-subtitle{
+                letter-spacing: 2px;
+                text-transform: uppercase;  
+                opacity: 0.6;
+            }
+            .tool-main__body-title{
+                margin: 6px 0 0 0;
+                font-size: 28px;
+                line-height: 32px;
+            }
+            .tool-main__body-text{
+                margin: 14px 0 0 0;
+                line-height: 20px;
+            }
+            .tool-main__body-button{
+                margin: 20px 0 0 0;
+            }
+        }
+    }
+    
+    .tool-main__img{
+        width: 50%;
+        background: url('/src/img/tool/toolMain.jpg') no-repeat;
+        background-size: cover;
+    }
+}
+.monstera{
+    background: url('/src/img/tool/Monstera.jpg') no-repeat;
+    background-size: cover;
+}
+.pastClients{
+    padding: 120px 0;
+    .pastClients-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pastClients__body{
+        margin: 80px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.himalayas{
+    background: url('/src/img/tool/Himalayas.jpg') no-repeat;
+    background-size: cover;
+}
