@@ -1,0 +1,94 @@
+.footer{
+    padding: 100px 0;
+    .footer-header{
+        display: flex;
+        .footer-header__logo{
+            width: 60%;
+            .footer-header__logo-text{
+                margin: 20px 0 0 0;
+                font-size: 13px;
+                line-height: 20px;
+                opacity: 0.6;
+            }
+        }
+        .footer-header__body{
+            display: flex;
+            gap: 55px;
+            .footer-list {
+                li{
+                    margin: 10px 0 0 0;
+                }
+                a{
+                    color: #fff;
+                    line-height: 20px;
+                }
+                li:first-child a{
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    line-height: 20px;
+                    opacity: 0.6;
+                }   
+            }
+              
+        }
+    }
+    .footer-subscribe{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        padding: 36px 0;
+        margin: 36px 0 0 0;
+        .footer-subscribe__text{
+            line-height: 20px;
+            .footer-subscribe-title{
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+            .footer-subscribe-subtitle{
+                margin: 20px 0 0 0;
+                opacity: 0.6;
+            }
+        }
+        .footer-subscribe__search{
+            width: 40%;
+            .footer-subscribe__input input, .footer-subscribe__button button{
+                border: none;
+                border-radius: 12px;
+            }
+            .footer-subscribe__input{
+                position: relative;
+                input{
+                    width: 100%;
+                    padding: 20px 10px;
+                }
+      
+            }
+            .footer-subscribe__button{
+                position: absolute;
+                top: 10px;
+                right: 6px;
+                button{
+                    padding: 10px 10px;
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+           
+        }
+    }
+    .footer-down{
+        display: flex;
+        justify-content: space-between;
+        margin: 56px 0 0 0;
+        .footer-down-text{
+            opacity: 0.6;
+        }
+        .footer-down__socialNetworks{
+            display: flex;
+            gap: 20px;
+        }
+    }
+    
+}

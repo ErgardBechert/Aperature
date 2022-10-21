@@ -5,13 +5,20 @@
 @import '../scss/main';
 @import '../scss/specialized';
 @import '../scss/tools';
-@import '../scss/pastClients';
+@import '../scss/footer';
 /* nullCss*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+ul, li {
+
+  margin: 0;
+  
+  padding: 0;
+  
+  }
 ul[class],
 ol[class] {
   padding: 0;

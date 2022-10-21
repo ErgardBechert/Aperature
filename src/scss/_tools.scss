@@ -3,17 +3,17 @@
     height: 600px;
     display: flex;
     justify-content: end;
-    .tool__body{
-        width: 15%;
+    &__body{
+        width: 20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0 10% 0 0;
-        .tool__title{
+        &__title{
             letter-spacing: 2px;
             text-transform: uppercase;
         }
-        .tool__text{
+        &__text{
             line-height: 20px;
             opacity: 0.6;
         }
@@ -25,36 +25,37 @@
 }
 .tool-main{
     display: flex;
-    .tool-main-content{
+    &-content{
         width: 50%;
         display: flex;
         justify-content: center;
-        .tool-main__body{
-            width: 55%;
+    }
+        &__body{
+            width: 70%;
             display: flex;
             flex-direction: column;
             justify-content: center;  
-            .tool-main__body-subtitle{
+            &__body-subtitle{
                 letter-spacing: 2px;
                 text-transform: uppercase;  
                 opacity: 0.6;
             }
-            .tool-main__body-title{
+            &__body-title{
                 margin: 6px 0 0 0;
                 font-size: 28px;
                 line-height: 32px;
             }
-            .tool-main__body-text{
+            &__body-text{
                 margin: 14px 0 0 0;
                 line-height: 20px;
             }
-            .tool-main__body-button{
+            &__body-button{
                 margin: 20px 0 0 0;
             }
         }
-    }
+   
     
-    .tool-main__img{
+    &__img{
         width: 50%;
         background: url('/src/img/tool/toolMain.jpg') no-repeat;
         background-size: cover;
@@ -66,13 +67,13 @@
 }
 .pastClients{
     padding: 120px 0;
-    .pastClients-header{
+    &-header{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .pastClients__body{
+    &__body{
         margin: 80px 0 0 0;
         display: flex;
         justify-content: space-between;
@@ -82,4 +83,13 @@
 .himalayas{
     background: url('/src/img/tool/Himalayas.jpg') no-repeat;
     background-size: cover;
+}
+.needHelp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 108px 0;
+    text-align: center;
 }

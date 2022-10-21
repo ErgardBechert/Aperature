@@ -1,10 +1,11 @@
 .specialized-section{
     padding: 120px 0;
+}
     .specialized{
-        .specialized-header{
+        &-header{
             text-align: center;
         }
-        .specialized-body{
+        &-body{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -15,33 +16,48 @@
             }
             .item2{
                 background: url('/src/img/specialized/fon2.jpg') no-repeat;
+                height: auto;
             }
             .item3{
                 background: url('/src/img/specialized/fon3.jpg') no-repeat;
+                height: auto;
             }
             .item4{
                 background: url('/src/img/specialized/fon4.jpg') no-repeat;
+                height: auto;
             }
-            .specialized-item{
-                display: flex;
-                width: 45%;
-                height: 600px;
-                padding: 30px;
-                .specialized-item__body{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: end;
-                  .specialized-item__title{
-                    letter-spacing: 2px;
-                    text-transform: uppercase;
-                  }
-                  .specialized-item__text{
-                    margin: 15px 0 0 0;
-                    opacity: 0.6;
-                  }
+        }
+        &-item{
+            display: flex;
+            justify-content: center;
+           
+            width: 45%;
+            height: 600px;
+            &__body{
                 
-                }
+              width: 576px;
+              display: flex;
+              flex-direction: column;
+              justify-content: end;
+              padding: 30px;
+              &__title{
+                letter-spacing: 2px;
+                text-transform: uppercase;
+              }
+              &__text{
+                margin: 15px 0 0 0;
+                opacity: 0.6;
+              }
+            
             }
+        }
+    }
+
+@media(max-width: 992px) {
+    .specialized{
+        &-item{
+            width: 100%;
+            display: flex;
         }
     }
 }
