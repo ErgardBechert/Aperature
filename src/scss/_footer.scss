@@ -1,38 +1,37 @@
 .footer{
     padding: 100px 0;
-    .footer-header{
+    &-header{
         display: flex;
-        .footer-header__logo{
+        &__logo{
             width: 60%;
-            .footer-header__logo-text{
+            &__logo-text{
                 margin: 20px 0 0 0;
                 font-size: 13px;
                 line-height: 20px;
                 opacity: 0.6;
             }
         }
-        .footer-header__body{
+        &__body{
             display: flex;
-            gap: 55px;
-            .footer-list {
-                li{
-                    margin: 10px 0 0 0;
-                }
-                a{
-                    color: #fff;
-                    line-height: 20px;
-                }
-                li:first-child a{
-                    letter-spacing: 2px;
-                    text-transform: uppercase;
-                    line-height: 20px;
-                    opacity: 0.6;
-                }   
-            }
-              
+            gap: 55px; 
         }
     }
-    .footer-subscribe{
+    &-list {
+        li{
+            margin: 10px 0 0 0;
+        }
+        a{
+            color: #fff;
+            line-height: 20px;
+        }
+        li:first-child a{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 20px;
+            opacity: 0.6;
+        }   
+    }
+    &-subscribe{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -40,18 +39,18 @@
         border-bottom: 2px solid #fff;
         padding: 36px 0;
         margin: 36px 0 0 0;
-        .footer-subscribe__text{
+        &__text{
             line-height: 20px;
-            .footer-subscribe-title{
-                letter-spacing: 2px;
-                text-transform: uppercase;
-            }
-            .footer-subscribe-subtitle{
-                margin: 20px 0 0 0;
-                opacity: 0.6;
-            }
         }
-        .footer-subscribe__search{
+        &-title{
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        &-subtitle{
+            margin: 20px 0 0 0;
+            opacity: 0.6;
+        }
+        &__search{
             width: 40%;
             .footer-subscribe__input input, .footer-subscribe__button button{
                 border: none;
@@ -70,6 +69,7 @@
                 top: 10px;
                 right: 6px;
                 button{
+                    cursor: pointer;
                     padding: 10px 10px;
                     color: #fff;
                     background-color: #000;
@@ -82,13 +82,78 @@
         display: flex;
         justify-content: space-between;
         margin: 56px 0 0 0;
-        .footer-down-text{
+        &-text{
             opacity: 0.6;
         }
-        .footer-down__socialNetworks{
+        &__socialNetworks{
             display: flex;
             gap: 20px;
         }
     }
     
 }
+@media(max-width: 1200px) {
+    .footer{
+        padding: 100px 30px;
+    }
+  }
+  @media(max-width: 992px) {
+    .footer{
+        &-header{
+            display: flex;
+            flex-wrap: wrap;
+            &__logo{
+                width: 100%;
+            }
+            &__body{
+                width: 100%;
+               justify-content: space-between;
+               margin: 20px 0 0 0;
+            
+            }
+        }
+       
+    }
+  }
+  @media(max-width: 535px) {
+    .footer{
+        &-subscribe{
+            flex-wrap: wrap;
+            &__text{
+                width: 100%;
+            }
+            &__search{
+                margin: 15px 0 0 0;
+                width: 100%;
+            }
+    }
+  }
+  .footer-down{
+      flex-wrap: wrap;
+      &-text{    
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          text-align: center;
+      }
+      &__socialNetworks{
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0 0 0;
+        
+    }
+  }
+}
+  @media(max-width: 420px) {
+    .footer{
+        &-header{
+            &__body{
+               flex-wrap: wrap;
+               
+            }
+        }
+        &-list{
+            width: 100%;
+        }
+    }
+  }

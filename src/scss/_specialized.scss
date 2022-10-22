@@ -34,13 +34,13 @@
             width: 45%;
             height: 600px;
             &__body{
-                
               width: 576px;
               display: flex;
               flex-direction: column;
               justify-content: end;
               padding: 30px;
-              &__title{
+            }
+            &__title{
                 letter-spacing: 2px;
                 text-transform: uppercase;
               }
@@ -48,8 +48,6 @@
                 margin: 15px 0 0 0;
                 opacity: 0.6;
               }
-            
-            }
         }
     }
 
@@ -58,6 +56,21 @@
         &-item{
             width: 100%;
             display: flex;
+        }
+    }
+}
+@media(max-width: 420px) {
+    .specialized-section{
+      padding: 50px 0;
+    }
+    .specialized{
+        &-item{
+            &__title{
+               font-size: 13px;
+              }
+              &__text{
+                font-size: 12px;
+              }
         }
     }
 }

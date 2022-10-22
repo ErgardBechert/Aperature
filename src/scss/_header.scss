@@ -35,8 +35,14 @@
                 align-items: center;
                 z-index: 2;
             }
+            li{
+                cursor: pointer;
+            }
             a{
                 color: #fff;
+                &:hover{
+                    border-bottom: 1px solid #fff; 
+                }
             }
         }
     }
