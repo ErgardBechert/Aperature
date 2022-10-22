@@ -194,21 +194,21 @@
 }
 
 .specialized-body .item1 {
-  background: url("/src/img/specialized/fon1.jpg") no-repeat;
+  background: url("../img/specialized/fon1.jpg") no-repeat;
 }
 
 .specialized-body .item2 {
-  background: url("/src/img/specialized/fon2.jpg") no-repeat;
+  background: url("../img/specialized/fon2.jpg") no-repeat;
   height: auto;
 }
 
 .specialized-body .item3 {
-  background: url("/src/img/specialized/fon3.jpg") no-repeat;
+  background: url("../img/specialized/fon3.jpg") no-repeat;
   height: auto;
 }
 
 .specialized-body .item4 {
-  background: url("/src/img/specialized/fon4.jpg") no-repeat;
+  background: url("../img/specialized/fon4.jpg") no-repeat;
   height: auto;
 }
 
@@ -282,7 +282,7 @@
 }
 
 .mount {
-  background: url("/src/img/tool/mount.jpg") no-repeat;
+  background: url("../img/tool/mount.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -326,12 +326,12 @@
 
 .tool-main__img {
   width: 50%;
-  background: url("/src/img/tool/toolMain.jpg") no-repeat;
+  background: url("../img/tool/toolMain.jpg") no-repeat;
   background-size: cover;
 }
 
 .monstera {
-  background: url("/src/img/tool/Monstera.jpg") no-repeat;
+  background: url("../img/tool/Monstera.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -354,7 +354,7 @@
 }
 
 .himalayas {
-  background: url("/src/img/tool/Himalayas.jpg") no-repeat;
+  background: url("../img/tool/Himalayas.jpg") no-repeat;
   background-size: cover;
 }
 
